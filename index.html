@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+</head>
+<body>
+    <div class="container">
+    <div class="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+    <div class="color5"></div>
+    </div>
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.color1').css({width: "800px", 
+                              height: "90px", 
+                              backgroundColor: "red",
+                              border: "2px solid black",
+                              margin: "auto",
+                              marginTop: "150px",
+                            });
+
+            $('.color2').css({width: "800px", 
+                              height: "90px", 
+                              backgroundColor: "green",
+                              border: "2px solid black",
+                              margin: "auto",
+                              marginTop: "10px",
+                         });
+          
+            $('.color3').css({width: "800px", 
+                              height: "90px", 
+                              backgroundColor: "blue",
+                              border: "2px solid black",
+                              margin: "auto",
+                              marginTop: "10px",
+                            });
+
+            $('.color4').css({width: "800px", 
+                              height: "90px", 
+                              backgroundColor: "violet",
+                              border: "2px solid black",
+                              margin: "auto",
+                              marginTop: "10px",
+                            });   
+                            
+            $('.color5').css({width: "800px", 
+                              height: "90px", 
+                              backgroundColor: "indigo",
+                              border: "2px solid black",
+                              margin: "auto",
+                              marginTop: "10px",
+                            });
+        
+            $('.color1').click(function() {
+                $('body').css({backgroundColor: "red"})
+                $('.color1').css({border: "2px solid white",
+                                  boxShadow: "5px 5px 25px white"})
+             alert('You Selected Red Color.');                   
+            })
+
+            $('.color2').click(function() {
+                $('body').css({backgroundColor: "green"})
+                $('.color2').css({border: "2px solid white",
+                                  boxShadow: "5px 5px 25px white"})
+                                  alert('You Selected green Color.');
+            })
+
+            $('.color3').click(function() {
+                $('body').css({backgroundColor: "blue"})
+                $('.color3').css({border: "2px solid white",
+                                  boxShadow: "5px 5px 25px white"})
+                                  alert('You Selected blue Color.');
+            })
+
+            $('.color4').click(function() {
+                $('body').css({backgroundColor: "violet"})
+                $('.color4').css({border: "2px solid white",
+                                  boxShadow: "5px 5px 25px white"})
+                                  alert('You Selected violet Color.');
+            })
+
+            $('.color5').click(function() {
+                $('body').css({backgroundColor: "indigo"})
+                $('.color5').css({border: "2px solid white",
+                                  boxShadow: "5px 5px 25px white"})
+                                  alert('You Selected indigo Color.');
+            })
+
+
+});
+    </script>
+</body>
+</html>

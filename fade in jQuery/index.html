@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade IN jQuery</title>
+</head>
+<body>
+    <h1>Fade In jQuery</h1>
+
+    <button class="btnFadeIn">FadeIn</button>
+    <button class="btnFadeOut">FadeOut</button>
+    <button class="btnFadeToggle">FadeToggle</button>
+    <button class="btnFadeTo">FadeTo</button>
+
+    <hr>
+
+    <div class="container">You Wanna See Some Magic</div>
+
+    <script src="../jquery-3.7.1.js"></script>
+
+    <script>
+        $('body').css({backgroundColor: 'Aquamarine', 
+                       textAlign: 'center'});
+
+        $('button').css({backgroundColor: 'Cornsilk', 
+                         fontSize: '16px', 
+                         padding: '5px 15px',
+                         border: '1px solid black'})
+
+        $('.container').css({backgroundColor: 'DarkCyan',
+                             width: '300px',
+                             height: '200px',
+                             margin: 'auto'})                 
+    </script>
+
+    <script>
+        $(document).ready(function(){
+             $('.btnFadeIn').click(function(){
+                $('.container').fadeIn(2000)
+             });
+
+             $('.btnFadeOut').click(function(){
+                $('.container').fadeOut(2000)
+             });
+
+             $('.btnFadeToggle').click(function(){
+                $('.container').fadeToggle(2000)
+             });
+
+             $('.btnFadeTo').click(function(){
+                $('.container').fadeTo(2000, 0.5)
+             });
+        })
+    </script>
+</body>
+</html>

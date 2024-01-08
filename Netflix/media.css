@@ -1,0 +1,27 @@
+@media (min-width: 576px) {
+    .navbar .container{
+        margin-left: 32px;
+    margin-right: 32px;
+    }
+    .navbar .container .logo img{
+        width: 150px;
+     }
+
+     .navbar .container .right_info{
+        margin-left: 250px;   
+     }
+     .top_section .container{
+        position: absolute;
+        top: 30%;
+        left: 8%;
+        color: white;
+        text-align: center;
+    }
+    .top_section .container .info h1{
+        font-size: 2rem;
+    }
+    .second_section .container{
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}

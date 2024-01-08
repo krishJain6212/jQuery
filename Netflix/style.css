@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray ;
+}
+.slider{
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 77px;
+    left: 1085px;
+    display: none;
+}
+.slider .container {
+    width: 200px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+.slider .container .list{
+    list-style: none;
+}
+.slider .container .list li{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.slider .container .list a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px 10px;
+}
+.navbar{
+    margin-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar .container{
+    display: inline-flex;
+    margin-left: 175px;
+    margin-right: 175px;
+    align-items: center;
+}
+.navbar .container .logo img{
+    width: 225px;
+}
+.navbar .container .right_info{
+       margin-left: 650px;
+       display: inline-flex;
+       align-items: center;
+}
+.navbar .container .right_info select{
+    font-size: 16px;
+    width: 90px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+.navbar .container .right_info button{
+    width: 70px;
+    height: 27px;
+    font-size: 12px;
+    background-color: rgb(229,9,20);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+}
+.navbar .container .right_info button:hover{
+    background-color: rgb(174, 17, 25);
+    cursor: grab;
+}
+.navbar .container .right_info .bars{
+    font-size: 12px;
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.top_section{
+    position: relative;
+}
+.top_section .background img{
+   width: 100%;
+}
+.top_section .container{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: white;
+    text-align: center;
+}
+.top_section .container .info h1{
+    font-size: 3rem;
+}
+.top_section .container .info h4{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.top_section .container .info p{
+    font-size: 1.25rem;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.top_section .container .info input{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: white;
+    padding: 10px  10px;
+    position: relative;
+}
+.top_section .container .info button{
+    background-color: rgb(229,9,20);
+    border: none;
+    font-size: 26px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.top_section .container .info button:hover{
+    background-color: rgb(174, 17, 25);
+    cursor: grab;
+}
+.second_section{
+    background-color: black;
+   height: 600px;
+    width: 100%;
+}
+.second_section .container{
+    display: inline-flex;
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.second_section .container .left{
+    width: 50%;
+}
+.second_section .container .left h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 200px;
+}
+.second_section .container .left p{
+    margin-top: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.second_section .container .right{
+    position: relative;
+    width: 50%;
+}
+.second_section .container .right img{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.second_section .container .right .video{
+    position: absolute;
+    top: 98px;
+    left: 72px;
+}
+.third_section{
+    background-color: black;
+    height: 500px;
+    margin-top: 2px;
+    padding-top: 60px;
+    width: 100%;
+}
+.third_section .container{
+    display: inline-flex;
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color: black;
+    color: white;
+}
+.third_section .container .left{
+    width: 50%;
+    position: relative;
+}
+
+.third_section .container .left .mob-img img{
+    width: 481px;
+    
+}
+.third_section .container .left .downloads{
+    display: inline-flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid rgba(128,128,128,0.7);
+    border-radius: 0.75rem;
+    padding: 12px 12px;
+    position: absolute;
+    top: 250px;
+    left: 97px;
+}
+.third_section .container .left .downloads .logo img{
+    width: 51px;
+    height: 72px;
+    margin-right: 16px;
+}
+.third_section .container .left .downloads .title{
+    margin-top: 4.800px;
+    margin-bottom: 4.800px;
+    margin-right: 25px;
+}
+.third_section .container .left .downloads .title .p1{
+     font-size: 1rem;
+     font-weight: 500;
+}
+.third_section .container .left .downloads .title .p2{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #0071eb;;
+}
+.third_section .container .left .down-icon img{
+    width: 60px;
+}
+.third_section .container .right h1{
+    margin-top: 100px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.third_section .container .right p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.fourth_section{
+    background-color: black;
+    height: 600px;
+    margin-top: 2px;
+}
+.fourth_section .container{
+    display: inline-flex;
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color: black;
+    color: white;
+}
+.fourth_section .container .left{
+    width: 50%;
+}
+.fourth_section .container .left h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 200px;
+}
+.fourth_section .container .left p{
+    margin-top: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.fourth_section .container .right{
+    position: relative;
+    width: 50%;
+}
+.fourth_section .container .right img{
+    z-index: 1;
+    position: absolute;
+    top: 70px;
+    left: -30px;
+    width: 740px;
+}
+.fourth_section .container .right .video{
+    position: absolute;
+    top: 98px;
+    left: 102px;
+}
+.fifth_section{
+    background-color: black;
+    margin-top: 2px;
+    padding-top: 60px;
+}
+.fifth_section .container{
+    display: inline-flex;
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color: black;
+    color: white;
+}
+.fifth_section .container .left{
+    width: 50%;
+}
+.fifth_section .container .right{
+    padding-left: 30px;
+}
+.fifth_section .container .right h1{
+    margin-top: 100px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.fifth_section .container .right p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.sixth_section{
+    background-color: black;
+    margin-top: 2px;
+    padding-bottom: 60px;
+}
+.sixth_section .container{
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color: black;
+    color: white;
+}
+.sixth_section .container h1{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+.sixth_section .container .faq_list ul{
+    list-style: none;
+    
+}
+.sixth_section .container .faq_list .hidden{
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    padding: 1.5rem;
+    margin-bottom: 8px;
+    color: rgb(255,255,255);
+    display: none;
+}
+.sixth_section .container .faq_list li{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    padding: 1.5rem;
+    margin-bottom: 8px;
+}
+.sixth_section .container .form p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 45.600px;
+}
+.sixth_section .container .form input{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: white;
+    padding: 10px  10px;
+    position: relative;
+}
+.sixth_section .container .form button{
+    background-color: rgb(229,9,20);
+    border: none;
+    font-size: 26px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.sixth_section .container .form button:hover{
+    background-color: rgb(174, 17, 25);
+    cursor: grabsixth
+}
+.footer{
+    margin-top: 2px;
+    padding-bottom: 72px;
+    padding-top: 72px;
+    color: rgba(255,255,255,0.7);
+    background-color: black;
+}
+.footer .container{
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color: black;
+}
+.footer .container .call .call_info{
+    display: inline-flex;
+    margin-bottom: 0.75rem;
+}
+.footer .container .call .call_info a{
+    margin-left: 5px;
+    color: rgba(255,255,255,0.7);
+}
+.footer .container .item .container{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.footer .container .item .container .itemlist ul{
+     display: inline-flex;
+     flex-wrap: wrap;
+     display: -webkit-inline-flex;
+}
+.footer .container .item .container .itemlist .ul li{
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 16px;
+    margin-left: 12px;
+   
+}
+.footer .container .item .container .itemlist .ul a{
+    display: inline;
+    width: 200px;
+    margin-left: -50px;
+    color: rgba(255,255,255,0.7);
+}
+.footer .container .language{
+    margin-bottom: 16px;
+}
+.footer .container .language select{
+    font-size: 16px;
+    width: 90px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
